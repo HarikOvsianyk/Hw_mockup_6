@@ -1,0 +1,18 @@
+@import 'libs/norm';
+@import 'base/extend';
+@import 'base/variables';
+
+body {
+    margin: 0;
+    min-width: 320px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+@import 'blocks/common';

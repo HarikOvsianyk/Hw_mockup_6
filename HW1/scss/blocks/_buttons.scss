@@ -1,0 +1,22 @@
+.btn {
+    display: inline-block;
+    padding: $btn-padding;
+    font-size: $btn-font-size-mobile;
+    line-height: $btn-line-height;
+    background: $blue;
+    color: $white;
+    border-radius: $btn-border-radius;
+    text-decoration: none;
+    transition: $btn-transition;
+    &:hover {
+        background:$red;
+    }
+
+    @media (min-width:768px) {
+        font-size: $btn-font-size-tablet;
+    }
+
+    @media (min-width:992px) {
+        font-size: $btn-font-size;
+    }
+}

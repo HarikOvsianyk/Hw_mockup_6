@@ -1,0 +1,18 @@
+@import 'libs/norm';
+@import 'base/extend';
+@import 'base/variables';
+
+body {
+    margin: 0;
+    min-width: 320px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    @media (min-width:992px) {
+        padding-left: 15px;
+    }
+}
+
+@import 'blocks/common';

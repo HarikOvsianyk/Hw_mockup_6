@@ -1,0 +1,12 @@
+.aside__2 {
+    background:$bg-color-aside2;
+    order: 3;
+
+    @media (min-width: 768px) {
+        min-width: $width-aside-tablet;
+    }
+
+    @media (min-width: 992px) {
+        min-width: $width-aside;
+    }
+}

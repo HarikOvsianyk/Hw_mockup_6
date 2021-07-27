@@ -1,0 +1,31 @@
+.btn {
+    display: inline-block;
+    padding: $btn-padding;
+    font-family: $btn-ff;
+    font-weight: $btn-fw;
+    font-size: $btn-font-size;
+    line-height: $btn-line-height;
+    background: $btn-background;
+    color: $btn-color;
+    border: $btn-border;
+    border-radius: $btn-border-radius;
+    text-decoration: none;
+    transition: $btn-transition;
+    &:hover {
+        color:$btn-bg-color;
+        background: $btn-hover-bg-color;
+    }
+}
+
+.btn-big {
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px 45px 15px 44px;
+    color: #ffffff;
+    background: $btn-hover-bg-color;
+    box-shadow: inset 0px 3px 0px 0px #736357;
+    border-radius: 3px;
+}

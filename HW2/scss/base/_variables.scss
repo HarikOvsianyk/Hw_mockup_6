@@ -1,0 +1,32 @@
+//colors
+$title-1-color: #555555;
+$descr-color: #8c8c8c;
+$btn-color: #8c8c8c;
+$btn-bg-color: #FFFFFF;
+$btn-hover-bg-color: #998675;
+$btn-border-color: #ebebeb;
+
+
+//blocks width
+
+
+//fonts
+$fs-title-1: 30px;
+$fs-descr: 16px;
+$lh-title-1: 1.2;
+$lh-descr: 28px;
+$fw-title-1: 600;
+$fw-descr: 300;
+
+//btn
+$btn-padding:     10px 0 11px 0;
+$btn-ff: Montserrat;
+$btn-font-size:   14px;
+$btn-line-height: 21px;
+$btn-fw: $fw-descr;
+$btn-background:  $btn-bg-color;
+$btn-color:       $btn-color;
+$bth-bg-hover:    $btn-hover-bg-color;
+$btn-border: 1px solid $btn-border-color;
+$btn-border-radius: 3px;
+$btn-transition: .5s;
